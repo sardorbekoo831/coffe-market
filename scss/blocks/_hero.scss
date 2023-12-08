@@ -1,0 +1,124 @@
+// NOUTBOOK VA KAMPYUTER QISMI
+
+.hero {
+  width: 100%;
+  background-image: url("/images/noutbook.png");
+  margin-top: 50px;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+
+  &__box {
+    padding-top: 90px;
+    padding-left: 85px;
+  }
+
+  &__box--head {
+    width: 493px;
+    color: #fefcf7;
+    font-family: "Fraunces";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px;
+  }
+
+  &__box--text {
+    width: 445px;
+    color: #fefcf7;
+    font-family: "Barlow";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.8;
+    margin-bottom: 50px;
+  }
+
+  &__box--link {
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #0e8784;
+    color: #fefcf7;
+    text-align: center;
+    font-family: Fraunces;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px;
+  }
+  &__box--link:active {
+    background-color: #66d2cf;
+  }
+}
+
+// PLANSHET QISMI
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    background-image: url("/images/planshet.png");
+
+    &__box--head {
+      width: 329px;
+      color: #fefcf7;
+      font-family: Fraunces;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 48px;
+    }
+
+    &__box--text {
+      width: 398px;
+      color: #fefcf7;
+      font-family: Barlow;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px;
+    }
+  }
+}
+
+// TELIFON QISMI
+
+@media only screen and (max-width: 376px) {
+  .hero {
+    background-image: url("/images/yelifon.png");
+
+    &__box {
+      padding: 0;
+      padding-top: 100px;
+      padding-left: 30px;
+    }
+
+    &__box--head {
+      width: 279px;
+      color: #fefcf7;
+      text-align: center;
+      font-family: Fraunces;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 40px;
+    }
+
+    &__box--text {
+      width: 279px;
+      color: #fefcf7;
+      text-align: center;
+      font-family: Barlow;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 25px;
+    }
+
+    &__box--link {
+      margin-left: 40px;
+    }
+  }
+}

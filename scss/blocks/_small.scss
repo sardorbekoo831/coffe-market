@@ -1,0 +1,200 @@
+// NOUTBOOK VA KAMPYUTER QISMI
+
+.small {
+  width: 1280px;
+  height: 577px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #2c343e;
+  margin-top: 300px;
+}
+
+.small__head {
+  color: #fefcf7;
+  text-align: center;
+  font-family: Fraunces;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 48px; /* 120% */
+  padding-top: 112px;
+}
+
+.small__text {
+  width: 540px;
+  color: #fefcf7;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-left: 370px;
+}
+
+.small__list {
+  display: flex;
+  gap: 70px;
+  margin-top: 100px;
+}
+
+.small__item {
+  width: 350px;
+  height: 382px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-color: #0e8784;
+}
+
+.small__item--img {
+  margin-top: 60px;
+  margin-left: 140px;
+}
+
+.small__item--box--head {
+  color: #fefcf7;
+  font-family: Fraunces;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+  width: 255px;
+  margin-left: 120px;
+}
+
+.small__item--box--text {
+  width: 255px;
+  color: #fefcf7;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-left: 50px;
+}
+
+.main__head {
+  width: 255px;
+  color: #83888f;
+  font-family: Fraunces 9pt;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px; /* 133.333% */
+  margin-top: 300px;
+}
+
+// PLANSHET QISMI
+
+@media only screen and (max-width: 768px) {
+  .small {
+    width: 688px;
+    height: 573px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #2c343e;
+    margin-top: 1500px;
+  }
+
+  .small__list {
+    display: block;
+    margin-left: 10px;
+  }
+
+  .small__item {
+    width: 573px;
+    height: 180px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-color: #0e8784;
+    display: flex;
+    margin-top: 24px;
+  }
+
+  .small__text {
+    width: 540px;
+    color: #fefcf7;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 80px;
+  }
+
+  .main__head {
+    margin-top: 500px;
+  }
+}
+
+// TELIFONQISMI
+
+@media only screen and (max-width: 376px) {
+  .small {
+    width: 327px;
+    height: 902px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #2c343e;
+    margin-top: 2500px;
+  }
+
+  .small__list {
+    margin-left: -15px;
+  }
+
+  .small__item {
+    width: 279px;
+    height: 382px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-color: #0e8784;
+    margin-top: 24px;
+  }
+
+  .small__head {
+    width: 255px;
+    color: #fefcf7;
+    text-align: center;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; /* 133.333% */
+    margin-left: 50px;
+  }
+
+  .small__text {
+    width: 279px;
+    color: #fefcf7;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-left: 30px;
+  }
+
+  .small__item--box--head {
+    width: 212px;
+    color: #fefcf7;
+    text-align: center;
+    font-family: Fraunces;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    margin-top: 150px;
+    margin-left: -170px;
+  }
+  .small__item--box--text {
+    margin-left: -190px;
+  }
+
+  .main__head {
+    margin-top: 800px;
+  }
+}

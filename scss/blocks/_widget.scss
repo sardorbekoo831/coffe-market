@@ -1,0 +1,91 @@
+// NOUTBOOK VA KAMPYUTER QISMI
+
+.widget {
+  width: 1111spx;
+  height: 196px;
+  flex-shrink: 0;
+  background-image: url("/images/our.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  gap: 70px;
+}
+
+.widget__box {
+  // margin-left: 20px;
+  margin: 0 auto;
+}
+
+.widget__box--img {
+  padding-top: 120px;
+}
+
+.widget__box--head {
+  width: 255px;
+  color: #333d4b;
+  text-align: center;
+  font-family: Fraunces;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 32px;
+}
+
+.widget__box--text {
+  width: 255px;
+  color: #333d4b;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+// PLANSHET QISMI
+
+@media only screen and (max-width: 768px) {
+  .widget {
+    width: 689px;
+    height: 118px;
+    flex-shrink: 0;
+    background-image: url("/images/ourplanshet.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    // padding: 0 20px;
+    margin-left: -50px;
+  }
+
+  .widget__box--img {
+    margin-top: -100px;
+    padding-top: 200px;
+  }
+
+  .widget__box {
+    display: flex;
+  }
+
+  .widget__head {
+    margin-top: 120px;
+  }
+}
+
+// TELIFON QISMI
+
+@media only screen and (max-width: 376px) {
+  .widget {
+    width: 375px;
+    height: 72px;
+    flex-shrink: 0;
+    background-image: url("/images/ourmobile.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .widget__box {
+    display: block;
+  }
+}

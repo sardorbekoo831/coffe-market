@@ -1,0 +1,25 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", "Fraunces", sans-serif;
+  background-color: #ffffff;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.contener {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

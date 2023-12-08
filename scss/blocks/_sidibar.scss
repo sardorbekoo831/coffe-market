@@ -1,0 +1,97 @@
+// NOUTBOOK VA KAMPYUTER QISMI
+
+.sidibar__list {
+  display: flex;
+}
+
+.sidibar__item--box {
+  width: 90px;
+  color: #fdd6ba;
+  font-family: Fraunces;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 72px;
+}
+
+.sidibar__item--head {
+  width: 200px;
+  color: #333d4b;
+  font-family: Fraunces;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 36px;
+  margin-top: -50px;
+}
+
+.sidibar__item--text {
+  width: 285px;
+  color: #333d4b;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.sidibar__link {
+  border-radius: 6px;
+  background: #0e8784;
+  padding: 15px;
+  color: #fefcf7;
+  text-align: center;
+  font-family: Fraunces;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25px;
+}
+
+.sidibar__link:active {
+  padding: 15px;
+  color: #fefcf7;
+  text-align: center;
+  font-family: Fraunces 9pt;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 25px; /* 138.889% */
+  border-radius: 6px;
+  background-color: #66d2cf;
+}
+
+//PLANSHET QISMI
+
+@media only screen and (max-width: 768px) {
+  .sidibar__item--text {
+    width: 150px;
+  }
+}
+
+//TELIFON QISMI
+
+@media only screen and (max-width: 376px) {
+  .sidibar__list {
+    display: block;
+  }
+
+  .sidibar__item {
+    margin-left: -50px;
+  }
+
+  .sidibar__item--head {
+    width: 327px;
+  }
+
+  .sidibar__item--text {
+    width: 327px;
+    color: #333d4b;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 166.667% */
+  }
+}

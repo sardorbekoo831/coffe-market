@@ -1,0 +1,63 @@
+// NOUTBOOK VA KAMPIYUTER QISM
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    margin-left: 33px;
+  }
+
+  &__item--link {
+    color: #83888f;
+    font-family: Barlow;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+  }
+
+  &__item--link:active {
+    color: #000;
+  }
+
+  &__burger {
+    margin-left: -50px;
+    display: none;
+  }
+}
+
+// PLANSHET QISM
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+// TELIFON QISM
+
+@media only screen and (max-width: 376px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .header {
+    &__list {
+      display: none;
+    }
+
+    &__burger {
+      display: block;
+      margin-top: 7px;
+    }
+  }
+}
